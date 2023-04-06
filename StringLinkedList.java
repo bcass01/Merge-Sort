@@ -71,7 +71,6 @@ public class StringLinkedList {
      * Sort the list with merge sort.
      */
     public void mergesort() {
-        // FIXME
     	this.head = recursiveSort(this.head);
     	if (this.head != null) {
 	    	Node curr = this.head;
